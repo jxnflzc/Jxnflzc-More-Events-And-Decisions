@@ -1,0 +1,11 @@
+# 改善好感
+jxnflzc_add_opinion = {
+	opinion = 100
+	max = 1000
+}
+
+# 加满好感
+jxnflzc_add_opinion_max = {
+	opinion = 1000
+	max = 1000
+}

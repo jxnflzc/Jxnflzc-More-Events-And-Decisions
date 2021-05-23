@@ -30,6 +30,94 @@ jm_truce = {
     }
 }
 
+# 改善好感
+jm_opinion = {
+	category = relation
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		not = {
+			war_with = FROM
+		}
+    }
+    
+    on_accept = {
+		add_opinion = {
+			who = FROM
+			modifier = jxnflzc_add_opinion
+		}
+		reverse_add_opinion = {
+			who = FROM
+			modifier = jxnflzc_add_opinion
+		}
+		add_trust = {
+			who = FROM
+			value = 100
+			mutual = yes
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}
+
+# 加满好感
+jm_opinion_max = {
+	category = relation
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		not = {
+			war_with = FROM
+		}
+    }
+    
+    on_accept = {
+		add_opinion = {
+			who = FROM
+			modifier = jxnflzc_add_opinion_max
+		}
+		reverse_add_opinion = {
+			who = FROM
+			modifier = jxnflzc_add_opinion_max
+		}
+		add_trust = {
+			who = FROM
+			value = 100
+			mutual = yes
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}
+
 # 强制结盟
 jm_alliance = {
 	category = relation
@@ -58,6 +146,10 @@ jm_alliance = {
 			create_alliance = ROOT
 		}
 		add_opinion = {
+			who = FROM
+			modifier = jxnflzc_add_opinion
+		}
+		reverse_add_opinion = {
 			who = FROM
 			modifier = jxnflzc_add_opinion
 		}
@@ -99,6 +191,10 @@ jm_create_vassal = {
     on_accept = {
 		vassalize = FROM
 		add_opinion = {
+			who = FROM
+			modifier = jxnflzc_add_opinion
+		}
+		reverse_add_opinion = {
 			who = FROM
 			modifier = jxnflzc_add_opinion
 		}

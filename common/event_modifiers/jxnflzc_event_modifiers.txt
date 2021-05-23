@@ -8,6 +8,7 @@ jxnflzc_state_governing_cost_modifier  = {
 	state_governing_cost = -0.8
 }
 
+# 拾金不昧
 jxnflzc_pick_up_gold_modifier = {
 	prestige = 1
 }
