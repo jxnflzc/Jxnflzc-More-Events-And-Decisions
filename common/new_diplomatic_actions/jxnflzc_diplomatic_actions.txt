@@ -30,6 +30,102 @@ jm_truce = {
     }
 }
 
+# 转变文化
+jm_change_culture = {
+	category = influence
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		FROM = {
+			any_owned_province = {
+				not = { 
+					culture_group = ROOT 
+				}
+			}
+		}
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		FROM = {
+			any_owned_province = {
+				not = { 
+					culture_group = ROOT 
+				}
+			}
+		}
+    }
+    
+    on_accept = {
+		FROM = {
+			change_primary_culture = ROOT
+			every_owned_province = {
+				change_culture = ROOT
+			}
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}
+
+# 转变宗教
+jm_change_religion = {
+	category = influence
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		FROM = {
+			any_owned_province = {
+				not = { 
+					religion = ROOT 
+				}
+			}
+		}
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		FROM = {
+			any_owned_province = {
+				not = { 
+					religion = ROOT 
+				}
+			}
+		}
+    }
+    
+    on_accept = {
+		FROM = {
+			change_religion = ROOT
+			every_owned_province = {
+				change_religion = ROOT
+			}
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}
+
 # 改善好感
 jm_opinion = {
 	category = relation
@@ -129,6 +225,9 @@ jm_alliance = {
 			ai = yes
 		}
 		has_country_flag = jm_diplomatic_on
+		not = {
+			alliance_with = FROM
+		}
     }
     
     is_allowed = {
@@ -138,6 +237,14 @@ jm_alliance = {
 		has_country_flag = jm_diplomatic_on
 		not = {
 			war_with = FROM
+		}
+		not = {
+			alliance_with = FROM
+		}
+		not = {	
+			FROM = {
+				vassal_of = ROOT
+			}
 		}
     }
     
@@ -176,6 +283,11 @@ jm_create_vassal = {
 			ai = yes
 		}
 		has_country_flag = jm_diplomatic_on
+		not = {
+			FROM = {
+				vassal_of = ROOT
+			}
+		}
     }
     
     is_allowed = {
@@ -185,6 +297,11 @@ jm_create_vassal = {
 		has_country_flag = jm_diplomatic_on
 		not = {
 			war_with = FROM
+		}
+		not = {
+			FROM = {
+				vassal_of = ROOT
+			}
 		}
     }
     
