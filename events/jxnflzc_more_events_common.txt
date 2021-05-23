@@ -1,0 +1,31 @@
+namespace = jxnflzc_more_events_common
+
+# subsidy
+country_event = {
+	id = jxnflzc_more_events_common.0
+	title = "jxnflzc_more_events_common_0_title"
+	desc = "jxnflzc_more_events_common_0_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	# is_triggered_only = yes
+	trigger = {
+		not = {
+			has_country_modifier = jxnflzc_pick_up_gold_modifier
+		}
+		not = {
+			treasury = 100
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_common_0.1"
+		add_country_modifier = {
+			name = jxnflzc_pick_up_gold_modifier
+			duration = 3650
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_common_0.2"
+		add_treasury = 1000
+	}
+}

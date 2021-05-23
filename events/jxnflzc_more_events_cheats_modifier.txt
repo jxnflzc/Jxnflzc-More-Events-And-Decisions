@@ -1,0 +1,73 @@
+namespace = jxnflzc_more_events_cheats_modifier
+
+# 0
+country_event = {
+	id = jxnflzc_more_events_cheats_modifier.0
+	title = "jxnflzc_more_events_cheats_modifier_0_title"
+	desc = "jxnflzc_more_events_cheats_modifier_0_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_exit"
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.1b"
+		trigger = {
+			has_country_modifier = jxnflzc_governing_capacity_modifier
+		}
+		remove_country_modifier = jxnflzc_governing_capacity_modifier
+		country_event = {
+			id = jxnflzc_more_events_cheats_modifier.90
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.2b"
+		trigger = {
+			has_country_modifier = jxnflzc_state_governing_cost_modifier
+		}
+		remove_country_modifier = jxnflzc_state_governing_cost_modifier
+		country_event = {
+			id = jxnflzc_more_events_cheats_modifier.90
+		}
+	}
+}
+
+# 90
+country_event = {
+	id = jxnflzc_more_events_cheats_modifier.90
+	title = "jxnflzc_more_events_cheats_modifier_0_title"
+	desc = "jxnflzc_more_events_cheats_modifier_0_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_exit"
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.1b"
+		trigger = {
+			has_country_modifier = jxnflzc_governing_capacity_modifier
+		}
+		remove_country_modifier = jxnflzc_governing_capacity_modifier
+		country_event = {
+			id = jxnflzc_more_events_cheats_modifier.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.2b"
+		trigger = {
+			has_country_modifier = jxnflzc_state_governing_cost_modifier
+		}
+		remove_country_modifier = jxnflzc_state_governing_cost_modifier
+		country_event = {
+			id = jxnflzc_more_events_cheats_modifier.0
+		}
+	}
+}

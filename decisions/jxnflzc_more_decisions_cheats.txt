@@ -1,0 +1,151 @@
+country_decisions = {
+	# 开启常用选项
+	jxnflzc_more_decision_common_on = {
+		major = yes
+		potential = {
+			not = {
+				ai = yes
+			}
+			not = {
+				has_country_flag = jm_common_on
+			}
+		}
+		allow = {
+			not = {
+				ai = yes
+			}
+			not = {
+				has_country_flag = jm_common_on
+			}
+		}
+		effect = {
+			set_country_flag = jm_common_on
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	# 关闭常用选项
+	jxnflzc_more_decision_common_off = {
+		major = yes
+		potential = {
+			not = {
+				ai = yes
+			}
+			has_country_flag = jm_common_on
+		}
+		allow = {
+			not = {
+				ai = yes
+			}
+			has_country_flag = jm_common_on
+		}
+		effect = {
+			clr_country_flag = jm_common_on
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	# 开启外交霸权
+	jxnflzc_more_decision_diplomatic_on = {
+		major = yes
+		potential = {
+			not = {
+				ai = yes
+			}
+			not = {
+				has_country_flag = jm_diplomatic_on
+			}
+		}
+		allow = {
+			not = {
+				ai = yes
+			}
+			not = {
+				has_country_flag = jm_diplomatic_on
+			}
+		}
+		effect = {
+			set_country_flag = jm_diplomatic_on
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	# 关闭外交霸权
+	jxnflzc_more_decision_diplomatic_off = {
+		major = yes
+		potential = {
+			not = {
+				ai = yes
+			}
+			has_country_flag = jm_diplomatic_on
+		}
+		allow = {
+			not = {
+				ai = yes
+			}
+			has_country_flag = jm_diplomatic_on
+		}
+		effect = {
+			clr_country_flag = jm_diplomatic_on
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	# 常用选项
+	jxnflzc_more_decision_common = {
+		major = no
+		potential = {
+			not = {
+				ai = yes
+			}
+			has_country_flag = jm_common_on
+		}
+		allow = {
+			not = {
+				ai = yes
+			}
+			has_country_flag = jm_common_on
+		}
+		effect = {
+			country_event = {
+				id = jxnflzc_more_events_cheats_common.0
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	# 修正管理
+	jxnflzc_more_decision_modifier_remove = {
+		major = no
+		potential = {
+			not = {
+				ai = yes
+			}
+			has_country_flag = jm_common_on
+		}
+		allow = {
+			not = {
+				ai = yes
+			}
+			has_country_flag = jm_common_on
+		}
+		effect = {
+			country_event = {
+				id = jxnflzc_more_events_cheats_modifier.0
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

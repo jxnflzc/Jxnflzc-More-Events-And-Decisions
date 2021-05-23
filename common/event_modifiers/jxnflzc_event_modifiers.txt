@@ -1,0 +1,13 @@
+# 行政容量翻倍
+jxnflzc_governing_capacity_modifier  = {
+	governing_capacity_modifier = 1
+}
+
+# 直辖省份行政容量降低
+jxnflzc_state_governing_cost_modifier  = {
+	state_governing_cost = -0.8
+}
+
+jxnflzc_pick_up_gold_modifier = {
+	prestige = 1
+}

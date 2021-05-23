@@ -1,0 +1,4 @@
+jxnflzc_add_opinion = {
+	opinion = 1000
+	max = 1000
+}

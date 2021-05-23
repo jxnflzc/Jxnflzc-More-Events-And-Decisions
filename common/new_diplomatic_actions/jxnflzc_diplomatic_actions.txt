@@ -1,0 +1,224 @@
+# 立刻停战
+jm_truce = {
+	category = influence
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		war_with = FROM
+    }
+    
+    on_accept = {
+		FROM = {
+			white_peace = ROOT
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}
+
+# 强制结盟
+jm_alliance = {
+	category = relation
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		not = {
+			war_with = FROM
+		}
+    }
+    
+    on_accept = {
+		FROM = {
+			create_alliance = ROOT
+		}
+		add_opinion = {
+			who = FROM
+			modifier = jxnflzc_add_opinion
+		}
+		add_trust = {
+			who = FROM
+			value = 100
+			mutual = yes
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}
+
+# 强制附庸
+jm_create_vassal = {
+	category = relation
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		not = {
+			war_with = FROM
+		}
+    }
+    
+    on_accept = {
+		vassalize = FROM
+		add_opinion = {
+			who = FROM
+			modifier = jxnflzc_add_opinion
+		}
+		add_trust = {
+			who = FROM
+			value = 100
+			mutual = yes
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}
+
+# 吞并附庸
+jm_annex = {
+	category = relation
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+		FROM = {
+			vassal_of = ROOT
+		}
+    }
+    
+    on_accept = {
+		FROM = {
+			every_owned_province = {
+				cede_province = ROOT
+				if = {
+					limit = {
+						not = {
+							is_core = ROOT
+						}
+					}
+					add_core = ROOT
+				}
+			}
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}
+
+# 快速间谍网
+jm_spy_network = {
+	category = covert
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    on_accept = {
+		FROM = {
+			add_spy_network_from = {
+				who = ROOT
+				value = 100
+			}
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}
+
+# 家族上位
+jm_dynasty = {
+	category = dynasty
+	
+    require_acceptance = no
+    
+    is_visible = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    is_allowed = {
+		not = {
+			ai = yes
+		}
+		has_country_flag = jm_diplomatic_on
+    }
+    
+    on_accept = {
+		FROM = {
+			set_dynasty = ROOT
+		}
+    }
+    
+    ai_will_do = {
+        always = no
+    }
+}

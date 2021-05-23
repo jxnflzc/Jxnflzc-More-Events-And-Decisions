@@ -1,0 +1,479 @@
+namespace = jxnflzc_more_events_cheats_common
+
+# 0 常用选项
+country_event = {
+	id = jxnflzc_more_events_cheats_common.0
+	title = "jxnflzc_more_events_cheats_common_0_title"
+	desc = "jxnflzc_more_events_cheats_common_0_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_exit"
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_0.1"
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.1
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_0.2"
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.2
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_0.3"
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.3
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_0.4"
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.4
+		}
+	}
+}
+
+# 1 获得金钱
+country_event = {
+	id = jxnflzc_more_events_cheats_common.1
+	title = "jxnflzc_more_events_cheats_common_1_title"
+	desc = "jxnflzc_more_events_cheats_common_1_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_1.1"
+		add_treasury = 1000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.91
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_1.2"
+		add_treasury = 10000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.91
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_1.3"
+		add_treasury = 100000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.91
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_1.4"
+		add_treasury = 1000000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.91
+		}
+	}
+}
+
+# 91 获得金钱
+country_event = {
+	id = jxnflzc_more_events_cheats_common.91
+	title = "jxnflzc_more_events_cheats_common_1_title"
+	desc = "jxnflzc_more_events_cheats_common_1_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_1.1"
+		add_treasury = 1000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.1
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_1.2"
+		add_treasury = 10000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.1
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_1.3"
+		add_treasury = 100000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.1
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_1.4"
+		add_treasury = 1000000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.1
+		}
+	}
+}
+
+# 2 获取人力和水手
+country_event = {
+	id = jxnflzc_more_events_cheats_common.2
+	title = "jxnflzc_more_events_cheats_common_2_title"
+	desc = "jxnflzc_more_events_cheats_common_2_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_2.1"
+		add_manpower = 10
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.92
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_2.2"
+		add_manpower = 100
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.92
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_2.3"
+		add_sailors = 1000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.92
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_2.4"
+		add_sailors = 10000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.92
+		}
+	}
+}
+
+# 92 获取人力和水手
+country_event = {
+	id = jxnflzc_more_events_cheats_common.92
+	title = "jxnflzc_more_events_cheats_common_2_title"
+	desc = "jxnflzc_more_events_cheats_common_2_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_2.1"
+		add_manpower = 10
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.2
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_2.2"
+		add_manpower = 100
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.2
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_2.3"
+		add_sailors = 1000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.2
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_2.4"
+		add_sailors = 10000
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.2
+		}
+	}
+}
+
+# 3 点数增加
+country_event = {
+	id = jxnflzc_more_events_cheats_common.3
+	title = "jxnflzc_more_events_cheats_common_3_title"
+	desc = "jxnflzc_more_events_cheats_common_3_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_3.1"
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.93
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_3.2"
+		add_adm_power = 500
+		add_dip_power = 500
+		add_mil_power = 500
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.93
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_3.3"
+		add_adm_power = 999
+		add_dip_power = 999
+		add_mil_power = 999
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.93
+		}
+	}
+}
+
+# 93 点数增加
+country_event = {
+	id = jxnflzc_more_events_cheats_common.93
+	title = "jxnflzc_more_events_cheats_common_3_title"
+	desc = "jxnflzc_more_events_cheats_common_3_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_3.1"
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.3
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_3.2"
+		add_adm_power = 500
+		add_dip_power = 500
+		add_mil_power = 500
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.3
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_3.3"
+		add_adm_power = 999
+		add_dip_power = 999
+		add_mil_power = 999
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.3
+		}
+	}
+}
+
+# 4 行政容量
+country_event = {
+	id = jxnflzc_more_events_cheats_common.4
+	title = "jxnflzc_more_events_cheats_common_4_title"
+	desc = "jxnflzc_more_events_cheats_common_4_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.1a"
+		trigger = {
+			not = {
+				has_country_modifier = jxnflzc_governing_capacity_modifier
+			}
+		}
+		add_country_modifier = {
+			name = jxnflzc_governing_capacity_modifier
+			duration = -1
+		}
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.94
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.1b"
+		trigger = {
+			has_country_modifier = jxnflzc_governing_capacity_modifier
+		}
+		remove_country_modifier = jxnflzc_governing_capacity_modifier
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.94
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.2a"
+		
+		trigger = {
+			not = {
+				has_country_modifier = jxnflzc_state_governing_cost_modifier
+			}
+		}
+		add_country_modifier = {
+			name = jxnflzc_state_governing_cost_modifier
+			duration = -1
+		}
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.94
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.2b"
+		
+		trigger = {
+			has_country_modifier = jxnflzc_state_governing_cost_modifier
+		}
+		remove_country_modifier = jxnflzc_state_governing_cost_modifier
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.94
+		}
+	}
+}
+
+# 94 行政容量
+country_event = {
+	id = jxnflzc_more_events_cheats_common.94
+	title = "jxnflzc_more_events_cheats_common_4_title"
+	desc = "jxnflzc_more_events_cheats_common_4_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.1a"
+		trigger = {
+			not = {
+				has_country_modifier = jxnflzc_governing_capacity_modifier
+			}
+		}
+		add_country_modifier = {
+			name = jxnflzc_governing_capacity_modifier
+			duration = -1
+		}
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.4
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.1b"
+		trigger = {
+			has_country_modifier = jxnflzc_governing_capacity_modifier
+		}
+		remove_country_modifier = jxnflzc_governing_capacity_modifier
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.4
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.2a"
+		
+		trigger = {
+			not = {
+				has_country_modifier = jxnflzc_state_governing_cost_modifier
+			}
+		}
+		add_country_modifier = {
+			name = jxnflzc_state_governing_cost_modifier
+			duration = -1
+		}
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.4
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_4.2b"
+		
+		trigger = {
+			has_country_modifier = jxnflzc_state_governing_cost_modifier
+		}
+		remove_country_modifier = jxnflzc_state_governing_cost_modifier
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.4
+		}
+	}
+}

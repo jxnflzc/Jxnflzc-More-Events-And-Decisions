@@ -1,0 +1,98 @@
+﻿l_english:
+
+# common
+jxnflzc_more_events_cheats_exit: "úQÜƒUS"
+jxnflzc_more_events_cheats_back: "ÔÞVNµu"
+
+# modifier
+jxnflzc_governing_capacity_modifier: "Ðc›OLˆ?e¹RÏ‘NP–"
+jxnflzc_state_governing_cost_modifier: "M–NOôv–ÞTLˆ?e¹RÏ‘±‚9"
+jxnflzc_refuse_subsidy_modifier: "ÒbÝueˆ4"
+jxnflzc_pick_up_gold_modifier: "þbÑ‘N'f"
+
+# country flag
+jm_diplomatic_on: "V/TY²N8—Cg"
+jm_common_on: "V/T8^(u	y˜"
+
+# decisions
+jxnflzc_more_decision_common_on_title: "0ôfY³Q®‹0V/T8^(u	y˜"
+jxnflzc_more_decision_common_on_desc: "V/T8^(u	y˜"
+jxnflzc_more_decision_common_off_title: "0ôfY³Q®‹0sQí•8^(u	y˜"
+jxnflzc_more_decision_common_off_desc: "sQí•8^(u	y˜"
+jxnflzc_more_decision_diplomatic_on_title: "0ôfY³Q®‹0V/TY²N8—Cg"
+jxnflzc_more_decision_diplomatic_on_desc: "V/TY²N8—Cg"
+jxnflzc_more_decision_diplomatic_off_title: "0ôfY³Q®‹0sQí•Y²N8—Cg"
+jxnflzc_more_decision_diplomatic_off_desc: "sQí•Y²N8—Cg"
+jxnflzc_more_decision_common_title: "0ôfY³Q®‹08^(u	y˜"
+jxnflzc_more_decision_common_desc: "8^(u‹NöNjOVÆ–"
+jxnflzc_more_decision_modifier_remove_title: "0ôfY³Q®‹0îOck¡rt"
+jxnflzc_more_decision_modifier_remove_desc: "ûyd–òTûm RîOck"
+
+# all(player & ai) events
+jxnflzc_more_events_common_0_title: ")YM–*j0"
+jxnflzc_more_events_common_0_desc: "`Op(WÎWô•„vSï-Nÿz6qÑS°s™XÒ‰N	gNwN‹ˆÑ‘^ÿ`OSÖNac†Nweg&&"
+jxnflzc_more_events_common_0.1: "Œb0Rv^S±”‹ˆ²NØÙu1YIN"
+jxnflzc_more_events_common_0.2: "Ù/fbŒb0R„vÿƒR1S”^å‹^SŽNb"
+
+# cheats common events
+jxnflzc_more_events_cheats_common_0_title: "8^(u	y˜"
+jxnflzc_more_events_cheats_common_0_desc: "8^(u‹NöNjOVÆ–"
+jxnflzc_more_events_cheats_common_0.1: "·ƒ—VÑ‘±”"
+jxnflzc_more_events_cheats_common_0.2: "·ƒÖSºN›RŒT4lKb"
+jxnflzc_more_events_cheats_common_0.3: "¹ppežX R"
+jxnflzc_more_events_cheats_common_0.4: "Lˆ?e¹RÏ‘"
+
+# cheats common events - gold
+jxnflzc_more_events_cheats_common_1_title: "·ƒ—VÑ‘±”"
+jxnflzc_more_events_cheats_common_1_desc: "·ƒ—VNTpeÏ‘„vÑ‘±”"
+jxnflzc_more_events_cheats_common_1.1: "·ƒ—V 1K"
+jxnflzc_more_events_cheats_common_1.2: "·ƒ—V 10K"
+jxnflzc_more_events_cheats_common_1.3: "·ƒ—V 100K"
+jxnflzc_more_events_cheats_common_1.4: "·ƒ—V 1000K"
+
+# cheats common events - manpower & sailors
+jxnflzc_more_events_cheats_common_2_title: "·ƒÖSºN›RŒT4lKb"
+jxnflzc_more_events_cheats_common_2_desc: "·ƒÖScšRpeÏ‘ºN›RŒT4lKb"
+jxnflzc_more_events_cheats_common_2.1: "·ƒÖS 10K ºN›R"
+jxnflzc_more_events_cheats_common_2.2: "·ƒÖS 100K ºN›R"
+jxnflzc_more_events_cheats_common_2.3: "·ƒÖS 1K 4lKb"
+jxnflzc_more_events_cheats_common_2.4: "·ƒÖS 10K 4lKb"
+
+# cheats common events - adm, dip, mil
+jxnflzc_more_events_cheats_common_3_title: "¹ppežX R"
+jxnflzc_more_events_cheats_common_3_desc: "žX RNšRpeÏ‘„vLˆ?e0Y²NŒT›Q‹N¹ppe"
+jxnflzc_more_events_cheats_common_3.1: "¹ppežX R 100"
+jxnflzc_more_events_cheats_common_3.2: "¹ppežX R 500"
+jxnflzc_more_events_cheats_common_3.3: "¹ppežX R 999"
+
+# cheats common events - governing capacity
+jxnflzc_more_events_cheats_common_4_title: "Lˆ?e¹RÏ‘"
+jxnflzc_more_events_cheats_common_4_desc: "Ðc›OLˆ?e¹RÏ‘NP–ÿM–NOôv–ÞTLˆ?e¹RÏ‘±‚9"
+jxnflzc_more_events_cheats_common_4.1a: "Ðc›OLˆ?e¹RÏ‘NP–"
+jxnflzc_more_events_cheats_common_4.1b: "0ûyd–0Lˆ?e¹RÏ‘NP–"
+jxnflzc_more_events_cheats_common_4.2a: "M–NOôv–ÞTLˆ?e¹RÏ‘±‚9"
+jxnflzc_more_events_cheats_common_4.2b: "0ûyd–0M–NOôv–ÞTLˆ?e¹RÏ‘±‚9"
+
+# diplomatic
+jm_truce_title: "0Y²N8—Cg0ËzIRjPb"
+jm_truce_tooltip: "N [From.GetName] ËzIRjPb0"
+jm_truce_desc: "N [From.GetName] ËzIRjPb0"
+jm_alliance_title: "0Y²N8—Cg0:V6RÓußv"
+jm_alliance_tooltip: "N [From.GetName] :V6RÓußvv^ÐcGS‹Ya¦^0"
+jm_alliance_desc: "N [From.GetName] :V6RÓußvv^ÐcGS‹Ya¦^0"
+jm_create_vassal_title: "0Y²N8—Cg0:V6RD–¸^"
+jm_create_vassal_tooltip: "S [From.GetName] :V6R6e:ND–¸^v^ÐcGS‹Ya¦^0"
+jm_create_vassal_desc: "S [From.GetName] :V6R6e:ND–¸^v^ÐcGS‹Ya¦^0"
+jm_annex_title: "0Y²N8—Cg0Tv^D–¸^"
+jm_annex_tooltip: "SD–¸^ [From.GetName] :V6RTv^0"
+jm_annex_desc: "SD–¸^ [From.GetName] :V6RTv^0"
+jm_spy_network_title: "0Y²N8—Cg0ëVô•ŒQ"
+jm_spy_network_tooltip: "·ƒ—V(WýV¶R [From.GetName] 100%„vô•ŒQ0"
+jm_spy_network_desc: "·ƒ—V(WýV¶R [From.GetName] 100%„vô•ŒQ0"
+jm_dynasty_title: "0Y²N8—Cg0¶RÏeNMO"
+jm_dynasty_tooltip: "(W [From.GetName] vbcêñT„výV¶RNMO0"
+jm_dynasty_desc: "(W [From.GetName] vbcêñT„výV¶RNMO0"
+
+# cheats modifier events - remove
+jxnflzc_more_events_cheats_modifier_0_title: "îOck¡rt"
+jxnflzc_more_events_cheats_modifier_0_desc: "ûyd–òTûm RîOck"
