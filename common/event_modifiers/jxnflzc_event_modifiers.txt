@@ -12,3 +12,15 @@ jxnflzc_state_governing_cost_modifier  = {
 jxnflzc_pick_up_gold_modifier = {
 	prestige = 1
 }
+
+# 殖民增益
+jxnflzc_global_colonial_growth = {
+	global_colonial_growth = 100
+	colonist_placement_chance = 0.5
+}
+
+# 快速殖民
+jxnflzc_global_colonial_growth_max = {
+	global_colonial_growth = 1000
+	colonist_placement_chance = 1
+}

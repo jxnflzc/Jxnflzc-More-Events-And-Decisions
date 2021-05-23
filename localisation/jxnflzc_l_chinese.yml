@@ -1,0 +1,123 @@
+l_chinese:
+
+# common
+jxnflzc_more_events_cheats_exit: "<<  退出菜单  >>"
+jxnflzc_more_events_cheats_back: "<<  返回上级  >>"
+
+# modifier
+jxnflzc_governing_capacity_modifier: "提供行政容量上限"
+jxnflzc_state_governing_cost_modifier: "降低直辖州行政容量花费"
+jxnflzc_refuse_subsidy_modifier: "拒绝补贴"
+jxnflzc_pick_up_gold_modifier: "拾金不昧"
+jxnflzc_add_opinion: "【外交霸权】改善好感"
+jxnflzc_add_opinion_max: "【外交霸权】加满好感"
+jxnflzc_global_colonial_growth: "殖民增益"
+jxnflzc_global_colonial_growth_max: "快速殖民"
+
+# country flag
+jm_diplomatic_on: "开启外交霸权"
+jm_common_on: "开启常用选项"
+
+# decisions
+jxnflzc_more_decision_common_on_title: "【更多决议】开启常用选项"
+jxnflzc_more_decision_common_on_desc: "开启常用选项"
+jxnflzc_more_decision_common_off_title: "【更多决议】关闭常用选项"
+jxnflzc_more_decision_common_off_desc: "关闭常用选项"
+jxnflzc_more_decision_diplomatic_on_title: "【更多决议】开启外交霸权"
+jxnflzc_more_decision_diplomatic_on_desc: "开启外交霸权"
+jxnflzc_more_decision_diplomatic_off_title: "【更多决议】关闭外交霸权"
+jxnflzc_more_decision_diplomatic_off_desc: "关闭外交霸权"
+jxnflzc_more_decision_common_title: "【更多决议】常用选项"
+jxnflzc_more_decision_common_desc: "常用事件作弊集"
+jxnflzc_more_decision_modifier_remove_title: "【更多决议】修正管理"
+jxnflzc_more_decision_modifier_remove_desc: "移除已添加修正"
+
+# all(player & ai) events
+jxnflzc_more_events_common_0_title: "天降横财"
+jxnflzc_more_events_common_0_desc: "你走在城间的小路中，突然发现墙角下有着一袋金币，你将他捡了起来……"
+jxnflzc_more_events_common_0.1: "找到并将钱袋交还给失主"
+jxnflzc_more_events_common_0.2: "这是我找到的，它就应该属于我"
+
+# cheats common events
+jxnflzc_more_events_cheats_common_0_title: "常用选项"
+jxnflzc_more_events_cheats_common_0_desc: "常用事件作弊集"
+jxnflzc_more_events_cheats_common_0.1: "获得金钱"
+jxnflzc_more_events_cheats_common_0.2: "获取人力和水手"
+jxnflzc_more_events_cheats_common_0.3: "点数增加"
+jxnflzc_more_events_cheats_common_0.4: "行政容量"
+jxnflzc_more_events_cheats_common_0.5: "殖民修正"
+
+# cheats common events - gold
+jxnflzc_more_events_cheats_common_1_title: "获得金钱"
+jxnflzc_more_events_cheats_common_1_desc: "获得不同数量的金钱"
+jxnflzc_more_events_cheats_common_1.1: "获得 1K"
+jxnflzc_more_events_cheats_common_1.2: "获得 10K"
+jxnflzc_more_events_cheats_common_1.3: "获得 100K"
+jxnflzc_more_events_cheats_common_1.4: "获得 1000K"
+
+# cheats common events - manpower & sailors
+jxnflzc_more_events_cheats_common_2_title: "获取人力和水手"
+jxnflzc_more_events_cheats_common_2_desc: "获取指定数量人力和水手"
+jxnflzc_more_events_cheats_common_2.1: "获取 10K 人力"
+jxnflzc_more_events_cheats_common_2.2: "获取 100K 人力"
+jxnflzc_more_events_cheats_common_2.3: "获取 1K 水手"
+jxnflzc_more_events_cheats_common_2.4: "获取 10K 水手"
+
+# cheats common events - adm, dip, mil
+jxnflzc_more_events_cheats_common_3_title: "点数增加"
+jxnflzc_more_events_cheats_common_3_desc: "增加一定数量的行政、外交和军事点数"
+jxnflzc_more_events_cheats_common_3.1: "点数增加 100"
+jxnflzc_more_events_cheats_common_3.2: "点数增加 500"
+jxnflzc_more_events_cheats_common_3.3: "点数增加 999"
+
+# cheats common events - governing capacity
+jxnflzc_more_events_cheats_common_4_title: "行政容量"
+jxnflzc_more_events_cheats_common_4_desc: "提供行政容量上限，降低直辖州行政容量花费"
+jxnflzc_more_events_cheats_common_4.1a: "提供行政容量上限"
+jxnflzc_more_events_cheats_common_4.1b: "【移除】行政容量上限"
+jxnflzc_more_events_cheats_common_4.2a: "降低直辖州行政容量花费"
+jxnflzc_more_events_cheats_common_4.2b: "【移除】降低直辖州行政容量花费"
+
+# cheats common events - colonial
+jxnflzc_more_events_cheats_common_5_title: "殖民修正"
+jxnflzc_more_events_cheats_common_5_desc: "提供殖民相关增益修正"
+jxnflzc_more_events_cheats_common_5.1a: "殖民增益"
+jxnflzc_more_events_cheats_common_5.1b: "【移除】殖民增益"
+jxnflzc_more_events_cheats_common_5.2a: "快速殖民"
+jxnflzc_more_events_cheats_common_5.2b: "【移除】快速殖民"
+
+# diplomatic
+jm_truce_title: "【外交霸权】立刻停战"
+jm_truce_tooltip: "与 [From.GetName] 立刻停战。"
+jm_truce_desc: "与 [From.GetName] 立刻停战。"
+jm_change_culture_title: "【外交霸权】转变文化"
+jm_change_culture_tooltip: "将 [From.GetName] 主流文化转变为本国主流文化。"
+jm_change_culture_desc: "将 [From.GetName] 主流文化转变为本国主流文化。"
+jm_change_religion_title: "【外交霸权】转变宗教"
+jm_change_religion_tooltip: "将 [From.GetName] 宗教转变为本国宗教。"
+jm_change_religion_desc: "将 [From.GetName] 宗教转变为本国宗教。"
+jm_opinion_title: "【外交霸权】改善好感"
+jm_opinion_tooltip: "改善 [From.GetName] 对本国的好感度。"
+jm_opinion_desc: "改善 [From.GetName] 对本国的好感度。"
+jm_opinion_max_title: "【外交霸权】加满好感"
+jm_opinion_max_tooltip: "加满 [From.GetName] 对本国的好感度。"
+jm_opinion_max_desc: "加满 [From.GetName] 对本国的好感度。"
+jm_alliance_title: "【外交霸权】强制结盟"
+jm_alliance_tooltip: "与 [From.GetName] 强制结盟并提升好感度。"
+jm_alliance_desc: "与 [From.GetName] 强制结盟并提升好感度。"
+jm_create_vassal_title: "【外交霸权】强制附庸"
+jm_create_vassal_tooltip: "将 [From.GetName] 强制收为附庸并提升好感度。"
+jm_create_vassal_desc: "将 [From.GetName] 强制收为附庸并提升好感度。"
+jm_annex_title: "【外交霸权】吞并附庸"
+jm_annex_tooltip: "将附庸 [From.GetName] 强制吞并。"
+jm_annex_desc: "将附庸 [From.GetName] 强制吞并。"
+jm_spy_network_title: "【外交霸权】快速间谍网"
+jm_spy_network_tooltip: "获得在国家 [From.GetName] 100%的间谍网。"
+jm_spy_network_desc: "获得在国家 [From.GetName] 100%的间谍网。"
+jm_dynasty_title: "【外交霸权】家族上位"
+jm_dynasty_tooltip: "在 [From.GetName] 扶持自己的国家上位。"
+jm_dynasty_desc: "在 [From.GetName] 扶持自己的国家上位。"
+
+# cheats modifier events - remove
+jxnflzc_more_events_cheats_modifier_0_title: "修正管理"
+jxnflzc_more_events_cheats_modifier_0_desc: "移除已添加修正"

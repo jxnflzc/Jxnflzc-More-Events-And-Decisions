@@ -1,8 +1,8 @@
 ﻿l_english:
 
 # common
-jxnflzc_more_events_cheats_exit: "úQÜƒUS"
-jxnflzc_more_events_cheats_back: "ÔÞVNµu"
+jxnflzc_more_events_cheats_exit: "<<  úQÜƒUS  >>"
+jxnflzc_more_events_cheats_back: "<<  ÔÞVNµu  >>"
 
 # modifier
 jxnflzc_governing_capacity_modifier: "Ðc›OLˆ?e¹RÏ‘NP–"
@@ -11,6 +11,8 @@ jxnflzc_refuse_subsidy_modifier: "ÒbÝueˆ4"
 jxnflzc_pick_up_gold_modifier: "þbÑ‘N'f"
 jxnflzc_add_opinion: "0Y²N8—Cg09e„U‹Ya"
 jxnflzc_add_opinion_max: "0Y²N8—Cg0 Rán‹Ya"
+jxnflzc_global_colonial_growth: "–klžXÊv"
+jxnflzc_global_colonial_growth_max: "ëV–kl"
 
 # country flag
 jm_diplomatic_on: "V/TY²N8—Cg"
@@ -43,6 +45,7 @@ jxnflzc_more_events_cheats_common_0.1: "·ƒ—VÑ‘±”"
 jxnflzc_more_events_cheats_common_0.2: "·ƒÖSºN›RŒT4lKb"
 jxnflzc_more_events_cheats_common_0.3: "¹ppežX R"
 jxnflzc_more_events_cheats_common_0.4: "Lˆ?e¹RÏ‘"
+jxnflzc_more_events_cheats_common_0.5: "–klîOck"
 
 # cheats common events - gold
 jxnflzc_more_events_cheats_common_1_title: "·ƒ—VÑ‘±”"
@@ -74,6 +77,14 @@ jxnflzc_more_events_cheats_common_4.1a: "Ðc›OLˆ?e¹RÏ‘NP–"
 jxnflzc_more_events_cheats_common_4.1b: "0ûyd–0Lˆ?e¹RÏ‘NP–"
 jxnflzc_more_events_cheats_common_4.2a: "M–NOôv–ÞTLˆ?e¹RÏ‘±‚9"
 jxnflzc_more_events_cheats_common_4.2b: "0ûyd–0M–NOôv–ÞTLˆ?e¹RÏ‘±‚9"
+
+# cheats common events - colonial
+jxnflzc_more_events_cheats_common_5_title: "–klîOck"
+jxnflzc_more_events_cheats_common_5_desc: "Ðc›O–kløvsQžXÊvîOck"
+jxnflzc_more_events_cheats_common_5.1a: "–klžXÊv"
+jxnflzc_more_events_cheats_common_5.1b: "0ûyd–0–klžXÊv"
+jxnflzc_more_events_cheats_common_5.2a: "ëV–kl"
+jxnflzc_more_events_cheats_common_5.2b: "0ûyd–0ëV–kl"
 
 # diplomatic
 jm_truce_title: "0Y²N8—Cg0ËzIRjPb"

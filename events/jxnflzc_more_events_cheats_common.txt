@@ -40,6 +40,13 @@ country_event = {
 			id = jxnflzc_more_events_cheats_common.4
 		}
 	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_0.5"
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.5
+		}
+	}
 }
 
 # 1 获得金钱
@@ -474,6 +481,152 @@ country_event = {
 		remove_country_modifier = jxnflzc_state_governing_cost_modifier
 		country_event = {
 			id = jxnflzc_more_events_cheats_common.4
+		}
+	}
+}
+
+# 5 殖民修正
+country_event = {
+	id = jxnflzc_more_events_cheats_common.5
+	title = "jxnflzc_more_events_cheats_common_5_title"
+	desc = "jxnflzc_more_events_cheats_common_5_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.1a"
+		trigger = {
+			not = {
+				has_country_modifier = jxnflzc_global_colonial_growth
+			}
+		}
+		add_country_modifier = {
+			name = jxnflzc_global_colonial_growth
+			duration = -1
+		}
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.95
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.1b"
+		trigger = {
+			has_country_modifier = jxnflzc_global_colonial_growth
+		}
+		remove_country_modifier = jxnflzc_global_colonial_growth
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.95
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.2a"
+		
+		trigger = {
+			not = {
+				has_country_modifier = jxnflzc_global_colonial_growth_max
+			}
+		}
+		add_country_modifier = {
+			name = jxnflzc_global_colonial_growth_max
+			duration = -1
+		}
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.95
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.2b"
+		
+		trigger = {
+			has_country_modifier = jxnflzc_global_colonial_growth_max
+		}
+		remove_country_modifier = jxnflzc_global_colonial_growth_max
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.95
+		}
+	}
+}
+
+# 95 殖民修正
+country_event = {
+	id = jxnflzc_more_events_cheats_common.95
+	title = "jxnflzc_more_events_cheats_common_5_title"
+	desc = "jxnflzc_more_events_cheats_common_5_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_back"
+		ai_chance = { factor = 100 }
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.1a"
+		trigger = {
+			not = {
+				has_country_modifier = jxnflzc_global_colonial_growth
+			}
+		}
+		add_country_modifier = {
+			name = jxnflzc_global_colonial_growth
+			duration = -1
+		}
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.5
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.1b"
+		trigger = {
+			has_country_modifier = jxnflzc_global_colonial_growth
+		}
+		remove_country_modifier = jxnflzc_global_colonial_growth
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.5
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.2a"
+		
+		trigger = {
+			not = {
+				has_country_modifier = jxnflzc_global_colonial_growth_max
+			}
+		}
+		add_country_modifier = {
+			name = jxnflzc_global_colonial_growth_max
+			duration = -1
+		}
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.5
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.2b"
+		
+		trigger = {
+			has_country_modifier = jxnflzc_global_colonial_growth_max
+		}
+		remove_country_modifier = jxnflzc_global_colonial_growth_max
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.5
 		}
 	}
 }

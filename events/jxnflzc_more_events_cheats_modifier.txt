@@ -34,6 +34,29 @@ country_event = {
 			id = jxnflzc_more_events_cheats_modifier.90
 		}
 	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.1b"
+		trigger = {
+			has_country_modifier = jxnflzc_global_colonial_growth
+		}
+		remove_country_modifier = jxnflzc_global_colonial_growth
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.95
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.2b"
+		
+		trigger = {
+			has_country_modifier = jxnflzc_global_colonial_growth_max
+		}
+		remove_country_modifier = jxnflzc_global_colonial_growth_max
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.95
+		}
+	}
 }
 
 # 90
@@ -68,6 +91,29 @@ country_event = {
 		remove_country_modifier = jxnflzc_state_governing_cost_modifier
 		country_event = {
 			id = jxnflzc_more_events_cheats_modifier.0
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.1b"
+		trigger = {
+			has_country_modifier = jxnflzc_global_colonial_growth
+		}
+		remove_country_modifier = jxnflzc_global_colonial_growth
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.95
+		}
+	}
+	
+	option = {
+		name = "jxnflzc_more_events_cheats_common_5.2b"
+		
+		trigger = {
+			has_country_modifier = jxnflzc_global_colonial_growth_max
+		}
+		remove_country_modifier = jxnflzc_global_colonial_growth_max
+		country_event = {
+			id = jxnflzc_more_events_cheats_common.95
 		}
 	}
 }
