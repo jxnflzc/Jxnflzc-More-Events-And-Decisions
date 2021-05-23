@@ -15,16 +15,16 @@ jxnflzc_global_colonial_growth: "–klžXÊv"
 jxnflzc_global_colonial_growth_max: "ëV–kl"
 
 # country flag
-jm_diplomatic_on: "V/TY²N8—Cg"
-jm_common_on: "V/T8^(u	y˜"
+jm_diplomatic_on: "V=TY²N8—Cg"
+jm_common_on: "V=T8^(u	y˜"
 
 # decisions
-jxnflzc_more_decision_common_on_title: "0ôfY³Q®‹0V/T8^(u	y˜"
-jxnflzc_more_decision_common_on_desc: "V/T8^(u	y˜"
+jxnflzc_more_decision_common_on_title: "0ôfY³Q®‹0V=T8^(u	y˜"
+jxnflzc_more_decision_common_on_desc: "V=T8^(u	y˜"
 jxnflzc_more_decision_common_off_title: "0ôfY³Q®‹0sQí•8^(u	y˜"
 jxnflzc_more_decision_common_off_desc: "sQí•8^(u	y˜"
-jxnflzc_more_decision_diplomatic_on_title: "0ôfY³Q®‹0V/TY²N8—Cg"
-jxnflzc_more_decision_diplomatic_on_desc: "V/TY²N8—Cg"
+jxnflzc_more_decision_diplomatic_on_title: "0ôfY³Q®‹0V=TY²N8—Cg"
+jxnflzc_more_decision_diplomatic_on_desc: "V=TY²N8—Cg"
 jxnflzc_more_decision_diplomatic_off_title: "0ôfY³Q®‹0sQí•Y²N8—Cg"
 jxnflzc_more_decision_diplomatic_off_desc: "sQí•Y²N8—Cg"
 jxnflzc_more_decision_common_title: "0ôfY³Q®‹08^(u	y˜"
@@ -36,7 +36,7 @@ jxnflzc_more_decision_modifier_remove_desc: "ûyd–òTûm RîOck"
 jxnflzc_more_events_common_0_title: ")YM–*j0"
 jxnflzc_more_events_common_0_desc: "`Op(WÎWô•„vSï-Nÿz6qÑS°s™XÒ‰N	gNwN‹ˆÑ‘^ÿ`OSÖNac†Nweg&&"
 jxnflzc_more_events_common_0.1: "Œb0Rv^S±”‹ˆ²NØÙu1YIN"
-jxnflzc_more_events_common_0.2: "Ù/fbŒb0R„vÿƒR1S”^å‹^SŽNb"
+jxnflzc_more_events_common_0.2: "Ù=fbŒb0R„vÿƒR1S”^å‹^SŽNb"
 
 # cheats common events
 jxnflzc_more_events_cheats_common_0_title: "8^(u	y˜"
@@ -121,3 +121,18 @@ jm_dynasty_desc: "(W [From.GetName] vbcêñT„výV¶RNMO0"
 # cheats modifier events - remove
 jxnflzc_more_events_cheats_modifier_0_title: "îOck¡rt"
 jxnflzc_more_events_cheats_modifier_0_desc: "ûyd–òTûm RîOck"
+
+# disaster
+jxnflzc_make_ends_meet_disaster: "eQNweúQ"
+desc_jxnflzc_make_ends_meet_disaster: "ºNãSåeÊvžXYÿFO6eeQtSN³åN=e‘dºNl„vuImÿÈu	gNåeÿºNlÈuSwINÍS—b0"
+
+# disaster events - make ends meet disaster
+jxnflzc_more_events_disasters_0_title: "eQNweúQ"
+jxnflzc_more_events_disasters_0_desc: "ºNãSåeÊvžXYÿFO6eeQtSN³åN=e‘dºNl„vuImÿÈu	gNåeÿºNlÈuSwINÍS—b0"
+jxnflzc_more_events_disasters_0.1: "ÅV‰˜“b'tÐcØš6eeQ†N"
+jxnflzc_more_events_disasters_1_title: "uIm4ls^ÐcØš"
+jxnflzc_more_events_disasters_1_desc: "ºNãSåeÊvžXYÿ6eeQmN–KNÐcGSÿºNìN„vuIm4ls^—V0R†NÐcØš0"
+jxnflzc_more_events_disasters_1.1: "Ùck=fbNb^gw0R„v"
+jxnflzc_more_events_disasters_2_title: "wIN›Q"
+jxnflzc_more_events_disasters_2_desc: "ºNl6eeQtSN³åN=e‘dÖNìN„vuImÿÈuŽNÿºNlwINÍS—b†N0"
+jxnflzc_more_events_disasters_2.1: "&&"

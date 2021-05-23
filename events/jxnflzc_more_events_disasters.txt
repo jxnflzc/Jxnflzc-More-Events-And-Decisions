@@ -1,0 +1,43 @@
+namespace = jxnflzc_more_events_disasters
+
+# 0
+country_event = {
+	id = jxnflzc_more_events_disasters.0
+	title = "jxnflzc_more_events_disasters_0_title"
+	desc = "jxnflzc_more_events_disasters_0_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_disasters_0.1"
+	}
+}
+
+# 1
+country_event = {
+	id = jxnflzc_more_events_disasters.1
+	title = "jxnflzc_more_events_disasters_1_title"
+	desc = "jxnflzc_more_events_disasters_1_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_disasters_1.1"
+	}
+}
+
+# 2
+country_event = {
+	id = jxnflzc_more_events_disasters.2
+	title = "jxnflzc_more_events_disasters_2_title"
+	desc = "jxnflzc_more_events_disasters_2_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		name = "jxnflzc_more_events_disasters_2.1"
+		random_owned_province = {
+			create_revolt = 1
+		}
+	}
+}

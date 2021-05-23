@@ -121,3 +121,18 @@ jm_dynasty_desc: "在 [From.GetName] 扶持自己的国家上位。"
 # cheats modifier events - remove
 jxnflzc_more_events_cheats_modifier_0_title: "修正管理"
 jxnflzc_more_events_cheats_modifier_0_desc: "移除已添加修正"
+
+# disaster
+jxnflzc_make_ends_meet_disaster: "入不敷出"
+desc_jxnflzc_make_ends_meet_disaster: "人口日益增多，但收入却不足以支撑人民的生活，终有一日，人民终将起义反抗。"
+
+# disaster events - make ends meet disaster
+jxnflzc_more_events_disasters_0_title: "入不敷出"
+jxnflzc_more_events_disasters_0_desc: "人口日益增多，但收入却不足以支撑人民的生活，终有一日，人民终将起义反抗。"
+jxnflzc_more_events_disasters_0.1: "必须抓紧提高收入了"
+jxnflzc_more_events_disasters_1_title: "生活水平提高"
+jxnflzc_more_events_disasters_1_desc: "人口日益增多，收入也随之提升，人们的生活水平得到了提高。"
+jxnflzc_more_events_disasters_1.1: "这正是我所希望看到的"
+jxnflzc_more_events_disasters_2_title: "起义军"
+jxnflzc_more_events_disasters_2_desc: "人民收入却不足以支撑他们的生活，终于，人民起义反抗了。"
+jxnflzc_more_events_disasters_2.1: "……"
